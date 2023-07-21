@@ -1,0 +1,7 @@
+pandas 
+snowflake-connector-python
+pandas
+more-itertools
+sqlalchemy 
+mysql.connector
+pymysql
