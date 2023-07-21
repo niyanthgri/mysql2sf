@@ -3,7 +3,7 @@
 This program migrates a table from MySQL to Snowflake.
 Snowflake is a cloud data warehouse. 
 
-## **Prerequisites to run the program**
+### **Prerequisites to run the program**
 1. Database <dest_db> to be available on Snowflake
     - SQL command to create: ```CREATE DATABASE <dest_db>;```
     - To check if database is created: ```SHOW DATABASES;```
@@ -21,9 +21,11 @@ Snowflake is a cloud data warehouse.
       ```$ pip install -r requirements.txt```
 
 
-## **The command to run the program:** 
+### **The command to run the program:** 
 ```$ python -W ignore mysql2snowflake.py```
 > The "-W ignore" is to ignore the warnings that pop up when executing the program.
+
+
 
 
 
